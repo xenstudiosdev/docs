@@ -14,7 +14,8 @@
         "tab": "Eternity",
         "icon": "square-terminal",
         "pages": [
-          "eternity/introduction"
+          "eternity/introduction",
+          "eternity/installation"
         ]
       }
     ],
