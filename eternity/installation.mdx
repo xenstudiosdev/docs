@@ -1,0 +1,69 @@
+---
+title: "Installation"
+description: "Let's get started with installing your project"
+---
+
+# Installation
+
+Let's get started with creating your first Eternity Project:
+
+<Steps>
+  <Step title="Installing the package">
+    Before generating a project, you need to install the package first. Choose one of the below to your liking and install Eternity:
+
+    <CodeGroup>
+
+    ``` NPM
+    npm install --location=global eternity.js
+    ```
+
+    
+    ``` Yarn
+    yarn global add eternity.js
+    ```
+
+    
+    ``` PNPM
+    pnpm add -g eternity.js
+    ```
+
+    
+    ``` Bun
+    bun add -g eternity.js
+    ```
+
+    </CodeGroup>
+  </Step>
+  <Step title="Validate installation">
+    After running the command, run the version command to validate the installation:
+
+    ```
+    eternity --version
+    ```
+
+    This should display the version of eternity
+  </Step>
+  <Step title="Generate a new project">
+    Generating a project is easy, with our CLI it should automatically do it for you. Use:
+
+    ```
+    eternity new
+    ```
+
+    to generate a new project, it'll ask you questions about the project before fully setting it up.
+  </Step>
+  <Step title="Congratulations!" icon="party-horn">
+    After installing and finishing everything, your project should be set up. With your command manager, you can use scripts like:
+
+    <AccordionGroup>
+      <Accordion title="Start Script" icon="sparkles">
+        Starts the project, not in development mode.
+      </Accordion>
+      <Accordion title="Development" icon="sparkles">
+        Starts the project in development mode, tied to one server for testing.
+
+        - If a database is connected to this, it'll use a development sqlite database so it doesnt alter your production database.
+      </Accordion>
+    </AccordionGroup>
+  </Step>
+</Steps>

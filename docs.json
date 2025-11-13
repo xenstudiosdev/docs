@@ -1,0 +1,50 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "XenStudio's Documentation",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/logo.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Eternity",
+        "icon": "square-terminal",
+        "pages": [
+          "eternity/introduction"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo.svg",
+    "dark": "/logo.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://discord.xenstudios.online"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Website",
+      "href": "https://xenstudios.online"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://socials.xenstudios.online/x",
+      "github": "https://github.xenstudios.online"
+    }
+  }
+}
