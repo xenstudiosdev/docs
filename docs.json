@@ -11,6 +11,13 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Documentation",
+        "icon": "home",
+        "pages": [
+          "README"
+        ]
+      },
+      {
         "tab": "Eternity",
         "icon": "square-terminal",
         "pages": [
