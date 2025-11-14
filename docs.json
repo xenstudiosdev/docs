@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "XenStudio's Documentation",
   "colors": {
     "primary": "#16A34A",
@@ -14,7 +14,7 @@
         "tab": "Documentation",
         "icon": "home",
         "pages": [
-          "README"
+          "home/Home"
         ]
       },
       {
